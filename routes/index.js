@@ -63,40 +63,6 @@ router.get('/deletegame/:id', function(req, res, next){
   });  
   }); 
 
-// router.post('/deletegame', function(req, res, next) {
-  
-//  let gameID = parseInt(req.body.id);
-// console.log(gameID)
-//  connection.query('DELETE * FROM games WHERE ID ='+ gameID, (err, data)=>
-//   {
-//       if(err) throw err;
-
-
-//   });
-// res.send(gameID);
-   
-// });
-
-// router.delete('/deletegame', function(req, res, next) {
-//   var game = { id: req.params.id }
-  
-//   req.getConnection(function(error, conn) {
-//     connection.query('DELETE * FROM games WHERE id = ' + req.params.id, game, function(err, result) {
-//           //if(err) throw err
-//           if (err) {
-//               req.flash('error', err)
-//               // redirect to allgames list page
-//               res.redirect('/allgames')
-//           } else {
-//               req.flash('success', 'Game deleted successfully! id = ' + req.params.id)
-//               // redirect to allgames list page
-//               res.redirect('/allgames')
-//           }
-//       })
-//   })
-// })
-
-
 // router.get('/createtable', function (req, res, next) { 
 //   //connect to  SQL DB 
   
